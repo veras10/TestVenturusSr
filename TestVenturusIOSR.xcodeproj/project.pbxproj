@@ -3,19 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A250D56251BBE75007C358C /* HomeCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A250D55251BBE75007C358C /* HomeCVC.swift */; };
+		5A51B59D251CE52A0018E5E3 /* CustomRefresh.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A51B59C251CE52A0018E5E3 /* CustomRefresh.xib */; };
 		5AC78493251B94EB003B1B51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC78492251B94EB003B1B51 /* AppDelegate.swift */; };
 		5AC78495251B94EB003B1B51 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC78494251B94EB003B1B51 /* SceneDelegate.swift */; };
 		5AC78497251B94EB003B1B51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC78496251B94EB003B1B51 /* ViewController.swift */; };
 		5AC7849A251B94EB003B1B51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AC78498251B94EB003B1B51 /* Main.storyboard */; };
 		5AC7849C251B94EC003B1B51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AC7849B251B94EC003B1B51 /* Assets.xcassets */; };
 		5AC7849F251B94EC003B1B51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AC7849D251B94EC003B1B51 /* LaunchScreen.storyboard */; };
+		5AC784AB251B9F52003B1B51 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC784AA251B9F52003B1B51 /* HTTPClient.swift */; };
+		5AC784AD251B9FB2003B1B51 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC784AC251B9FB2003B1B51 /* HomeVC.swift */; };
+		5AC784AF251BA019003B1B51 /* ListImagesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC784AE251BA019003B1B51 /* ListImagesViewModel.swift */; };
+		5AC784B1251BBC42003B1B51 /* HomeCollectionCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC784B0251BBC42003B1B51 /* HomeCollectionCellViewModel.swift */; };
+		5AC784B3251BBCBD003B1B51 /* Imagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC784B2251BBCBD003B1B51 /* Imagem.swift */; };
+		5AE0CAA0251D8F1200B880DB /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE0CA9F251D8F1200B880DB /* Extension.swift */; };
+		5AE0CAA2251FD47400B880DB /* AlamofireExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE0CAA1251FD47400B880DB /* AlamofireExtensions.swift */; };
+		F42D31E07584A023F60022A1 /* Pods_TestVenturusIOSR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F1918B5A3A6D3229F47D985 /* Pods_TestVenturusIOSR.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A1D52D223CB8C967E85ACE1 /* Pods-TestVenturusIOSR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestVenturusIOSR.release.xcconfig"; path = "Target Support Files/Pods-TestVenturusIOSR/Pods-TestVenturusIOSR.release.xcconfig"; sourceTree = "<group>"; };
+		3F1918B5A3A6D3229F47D985 /* Pods_TestVenturusIOSR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestVenturusIOSR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A250D55251BBE75007C358C /* HomeCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCVC.swift; sourceTree = "<group>"; };
+		5A51B59C251CE52A0018E5E3 /* CustomRefresh.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomRefresh.xib; sourceTree = "<group>"; };
 		5AC7848F251B94EB003B1B51 /* TestVenturusIOSR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestVenturusIOSR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AC78492251B94EB003B1B51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AC78494251B94EB003B1B51 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +38,14 @@
 		5AC7849B251B94EC003B1B51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5AC7849E251B94EC003B1B51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5AC784A0251B94EC003B1B51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AC784AA251B9F52003B1B51 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		5AC784AC251B9FB2003B1B51 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		5AC784AE251BA019003B1B51 /* ListImagesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListImagesViewModel.swift; sourceTree = "<group>"; };
+		5AC784B0251BBC42003B1B51 /* HomeCollectionCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionCellViewModel.swift; sourceTree = "<group>"; };
+		5AC784B2251BBCBD003B1B51 /* Imagem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Imagem.swift; sourceTree = "<group>"; };
+		5AE0CA9F251D8F1200B880DB /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		5AE0CAA1251FD47400B880DB /* AlamofireExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireExtensions.swift; sourceTree = "<group>"; };
+		6913E5D981518B23C46EB11D /* Pods-TestVenturusIOSR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestVenturusIOSR.debug.xcconfig"; path = "Target Support Files/Pods-TestVenturusIOSR/Pods-TestVenturusIOSR.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F42D31E07584A023F60022A1 /* Pods_TestVenturusIOSR.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E761E34F15833FE0B3DB57C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6913E5D981518B23C46EB11D /* Pods-TestVenturusIOSR.debug.xcconfig */,
+				3A1D52D223CB8C967E85ACE1 /* Pods-TestVenturusIOSR.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		5AC78486251B94EB003B1B51 = {
 			isa = PBXGroup;
 			children = (
 				5AC78491251B94EB003B1B51 /* TestVenturusIOSR */,
 				5AC78490251B94EB003B1B51 /* Products */,
+				3E761E34F15833FE0B3DB57C /* Pods */,
+				968A8D7BA56B2AA56B675443 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +90,72 @@
 		5AC78491251B94EB003B1B51 /* TestVenturusIOSR */ = {
 			isa = PBXGroup;
 			children = (
+				5AE0CA9E251D8EE600B880DB /* Utils */,
+				5AC784A9251B953A003B1B51 /* Controller */,
+				5AC784A8251B9523003B1B51 /* View */,
+				5AC784A7251B9515003B1B51 /* Model */,
+				5AC784A6251B9506003B1B51 /* ViewModel */,
 				5AC78492251B94EB003B1B51 /* AppDelegate.swift */,
 				5AC78494251B94EB003B1B51 /* SceneDelegate.swift */,
 				5AC78496251B94EB003B1B51 /* ViewController.swift */,
-				5AC78498251B94EB003B1B51 /* Main.storyboard */,
 				5AC7849B251B94EC003B1B51 /* Assets.xcassets */,
-				5AC7849D251B94EC003B1B51 /* LaunchScreen.storyboard */,
 				5AC784A0251B94EC003B1B51 /* Info.plist */,
 			);
 			path = TestVenturusIOSR;
+			sourceTree = "<group>";
+		};
+		5AC784A6251B9506003B1B51 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5AC784AE251BA019003B1B51 /* ListImagesViewModel.swift */,
+				5AC784B0251BBC42003B1B51 /* HomeCollectionCellViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5AC784A7251B9515003B1B51 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5AC784AA251B9F52003B1B51 /* HTTPClient.swift */,
+				5AC784B2251BBCBD003B1B51 /* Imagem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5AC784A8251B9523003B1B51 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5AC78498251B94EB003B1B51 /* Main.storyboard */,
+				5AC7849D251B94EC003B1B51 /* LaunchScreen.storyboard */,
+				5A51B59C251CE52A0018E5E3 /* CustomRefresh.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5AC784A9251B953A003B1B51 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5AC784AC251B9FB2003B1B51 /* HomeVC.swift */,
+				5A250D55251BBE75007C358C /* HomeCVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5AE0CA9E251D8EE600B880DB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5AE0CA9F251D8F1200B880DB /* Extension.swift */,
+				5AE0CAA1251FD47400B880DB /* AlamofireExtensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		968A8D7BA56B2AA56B675443 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F1918B5A3A6D3229F47D985 /* Pods_TestVenturusIOSR.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +165,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5AC784A3251B94EC003B1B51 /* Build configuration list for PBXNativeTarget "TestVenturusIOSR" */;
 			buildPhases = (
+				6E9F90F18B691D397AFEF292 /* [CP] Check Pods Manifest.lock */,
 				5AC7848B251B94EB003B1B51 /* Sources */,
 				5AC7848C251B94EB003B1B51 /* Frameworks */,
 				5AC7848D251B94EB003B1B51 /* Resources */,
+				3D6A9AF3A4EA7420BE275F9D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A51B59D251CE52A0018E5E3 /* CustomRefresh.xib in Resources */,
 				5AC7849F251B94EC003B1B51 /* LaunchScreen.storyboard in Resources */,
 				5AC7849C251B94EC003B1B51 /* Assets.xcassets in Resources */,
 				5AC7849A251B94EB003B1B51 /* Main.storyboard in Resources */,
@@ -133,14 +227,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3D6A9AF3A4EA7420BE275F9D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestVenturusIOSR/Pods-TestVenturusIOSR-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestVenturusIOSR/Pods-TestVenturusIOSR-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestVenturusIOSR/Pods-TestVenturusIOSR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E9F90F18B691D397AFEF292 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestVenturusIOSR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5AC7848B251B94EB003B1B51 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AE0CAA2251FD47400B880DB /* AlamofireExtensions.swift in Sources */,
 				5AC78497251B94EB003B1B51 /* ViewController.swift in Sources */,
+				5AC784AD251B9FB2003B1B51 /* HomeVC.swift in Sources */,
 				5AC78493251B94EB003B1B51 /* AppDelegate.swift in Sources */,
+				5A250D56251BBE75007C358C /* HomeCVC.swift in Sources */,
+				5AC784B1251BBC42003B1B51 /* HomeCollectionCellViewModel.swift in Sources */,
+				5AE0CAA0251D8F1200B880DB /* Extension.swift in Sources */,
+				5AC784AB251B9F52003B1B51 /* HTTPClient.swift in Sources */,
+				5AC784AF251BA019003B1B51 /* ListImagesViewModel.swift in Sources */,
 				5AC78495251B94EB003B1B51 /* SceneDelegate.swift in Sources */,
+				5AC784B3251BBCBD003B1B51 /* Imagem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,10 +426,12 @@
 		};
 		5AC784A4251B94EC003B1B51 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6913E5D981518B23C46EB11D /* Pods-TestVenturusIOSR.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TestVenturusIOSR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,10 +445,12 @@
 		};
 		5AC784A5251B94EC003B1B51 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A1D52D223CB8C967E85ACE1 /* Pods-TestVenturusIOSR.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TestVenturusIOSR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

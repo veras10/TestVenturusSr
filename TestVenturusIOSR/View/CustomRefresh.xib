@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="111"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="reload" translatesAutoresizingMaskIntoConstraints="NO" id="rFL-GW-lWM">
+                    <rect key="frame" x="188.5" y="39" width="37" height="33"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="33" id="dx7-iD-5Ge"/>
+                        <constraint firstAttribute="width" constant="37" id="ob4-Ya-7fP"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.17254901959999999" green="0.18039215689999999" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="rFL-GW-lWM" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="KSf-Ht-3Jd"/>
+                <constraint firstItem="rFL-GW-lWM" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="q25-Wf-ogc"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="137.68115942028987" y="-176.45089285714286"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="reload" width="37" height="33"/>
+    </resources>
+</document>

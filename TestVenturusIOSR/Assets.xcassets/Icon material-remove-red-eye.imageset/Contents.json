@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Icon material-remove-red-eye.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

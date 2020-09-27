@@ -20,6 +20,7 @@ class HomeVC: UIViewController {
     
     @IBOutlet weak var viewFail: UIView!
     
+    @IBOutlet weak var imageReload: UIImageView!
     //MARK: - Lifecycle
     
     override func viewDidLoad() {
@@ -30,6 +31,10 @@ class HomeVC: UIViewController {
     
     override var preferredStatusBarStyle: UIStatusBarStyle {
         return .lightContent
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        viewModel.loadImgurl()
     }
     
     //MARK: - Helpers
@@ -48,6 +53,10 @@ class HomeVC: UIViewController {
         
         viewModel.loadImgurl()
         viewModel.imgUrlInfosLoaded = imgUrlInfosLoaded
+        
+        let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(imageTapped(tapGestureRecognizer:)))
+        imageReload.isUserInteractionEnabled = true
+        imageReload.addGestureRecognizer(tapGestureRecognizer)
     }
     
     func addRefreshControl() {
@@ -71,6 +80,14 @@ class HomeVC: UIViewController {
     }
     
     //MARK: - Actions
+    
+    @objc func imageTapped(tapGestureRecognizer: UITapGestureRecognizer)
+    {
+        let tappedImage = tapGestureRecognizer.view as! UIImageView
+
+        viewModel.loadImgurl()
+    }
+
     
     @objc func refreshContent() {
         let refreshView = refreshControl.viewWithTag(12052018)
